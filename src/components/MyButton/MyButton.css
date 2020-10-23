@@ -1,0 +1,43 @@
+.custom_btn {
+  background-color: var(--main-color) !important;
+  margin: 18px auto 10px !important;
+  display: block !important;
+  font-size: 14px;
+  font-weight: 500;
+  border: 0;
+  border-radius: 50px !important;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  padding: 10px 29px !important;
+  line-height: 15px;
+  display: flex;
+  cursor: pointer;
+}
+.custom_btn:hover {
+  transition: all ease 0.3s;
+}
+.custom_btn .btn_icon_container {
+  text-align: left !important;
+  padding: 3px;
+  background-color: #fff;
+  border-radius: 50%;
+  height: 27px;
+  width: 27px;
+  line-height: 29px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.MuiButton-label {
+  display: flex;
+}
+.custom_btn .btn_text {
+  font-size: 14px;
+  text-transform: capitalize;
+  text-align: center;
+  width: 100%;
+  margin-right: 5px;
+  margin-left: 5px;
+  color: #000;
+}

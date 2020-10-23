@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --main-color: #ffc500;
+}
+.info_container {
+  margin-top: 100 !important;
+}
+@media (max-width: 991px) {
+  .top_60 {
+    margin-top: 30 !important;
+  }
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  overflow-x: hidden;
+  position: relative;
+  background: url(./assets/images/bg.png) #fafafa;
+}
+.container_shadow {
+  box-shadow: 0px 2px 92px 0px rgba(0, 0, 0, 0.07);
+  -webkit-box-shadow: 10px 12px 92px 10px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 10px 12px 92px 10px rgba(0, 0, 0, 0.1);
+}
+.MuiGrid-root {
+  margin-top: 40px;
+}
+.MuiGrid-grid-xs-true {
+  margin-left: 3% !important;
+}
