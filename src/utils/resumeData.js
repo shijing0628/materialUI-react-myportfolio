@@ -4,6 +4,7 @@ import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import TwitterIcon from '@material-ui/icons/Twitter';
 import React from 'react';
 
+
 export default {
  name: ' Brenda Liu',
  title: " full-stack dev",

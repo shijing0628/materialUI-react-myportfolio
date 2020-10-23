@@ -13,15 +13,16 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 
 function App() {
   return (
-    <div>
+    <>
       <Container className={'info_container'}>
         <Grid container >
           <Grid item lg={3} md={4} sm={12} xs={12}>
             <Profile />
           </Grid>
           <Grid item xs >
-            <Header />
+
             <Router>
+              <Header />
               <Switch>
                 <Route path='/' exact>
                   <Resume />
@@ -35,7 +36,7 @@ function App() {
           </Grid>
         </Grid>
       </Container>
-    </div>
+    </>
   );
 }
 

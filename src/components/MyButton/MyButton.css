@@ -30,7 +30,7 @@
   justify-content: center;
 }
 .MuiButton-label {
-  display: flex;
+  display: flex !important;
 }
 .custom_btn .btn_text {
   font-size: 14px;

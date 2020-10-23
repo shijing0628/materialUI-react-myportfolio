@@ -6,14 +6,14 @@ import TimelineItem from '@material-ui/lab/TimelineItem';
 import './TimeLine.css'
 const CustomTimelineSeparator = () => {
  return (
-  <div>
+  <>
    <TimelineItem>
     <TimelineSeparator className={'separator_padding'}>
      <TimelineDot variant={'outlined'} className={'timeline_dot'} />
      <TimelineConnector />
     </TimelineSeparator>
    </TimelineItem>
-  </div>
+  </>
  )
 }
 
