@@ -1,0 +1,8 @@
+/* about me */
+.aboutme_text {
+  color: darkslategray !important;
+  font-size: small !important;
+  line-height: 22px !important;
+  white-space: pre-line;
+  font-family: "Lato", "Helvetica", sans-serif !important;
+}

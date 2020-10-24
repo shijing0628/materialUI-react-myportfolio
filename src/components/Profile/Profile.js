@@ -56,7 +56,7 @@ const Profile = () => {
         <CustomTimelineItem key={key} title={key} text={resumeData.socials[key].text} link={resumeData.socials[key].link}></CustomTimelineItem>
        ))
       }
-     </CustomerTimeLine>
+     </CustomerTimeLine >
      <br />
      <div className={'button_container'}>
       <MyButton text={'Download CV'} icon={<GetAppIcon />} />
