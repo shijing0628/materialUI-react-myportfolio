@@ -1,3 +1,4 @@
+import { AssignmentOutlined, WebOutlined } from '@material-ui/icons';
 import FacebookIcon from '@material-ui/icons/Facebook';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
@@ -73,6 +74,56 @@ export default {
    title: 'Abc High School',
    date: '2000 - 2003',
    description: 'Excited him now natural saw passage offices you minuter. At by asked being court hopes. Farther so friends am to detract.'
+  }
+ ],
+ services: [
+  {
+   title: 'Web Design',
+   description: 'I have been working on web design for 2 years.',
+   icon: <WebOutlined />
+  },
+  {
+   title: 'Branding Identity',
+   description: 'We will make you a brand that is catchy and leaves a trace.',
+   icon: <AssignmentOutlined />
+  },
+  {
+   title: 'Full-Stack Web develpment',
+   description: 'I have been working on web design for 3 years.',
+   icon: <WebOutlined />
+  }
+ ],
+ skills: [
+  {
+   title: 'Front-end',
+   description: [
+    'SASS, CSS, HTML',
+    'ReactJS',
+    'Javascript',
+    'Bootstrap',
+    'Material UI',
+    'TypeScript'
+   ],
+  },
+  {
+   title: 'Back-end',
+   description: ['NodeJS', 'Python', 'ExpressAPI'],
+  },
+  {
+   title: 'Database',
+   description: ['My SQL Server', 'MongoDB', 'Firebase'],
+  },
+  {
+   title: 'Source Control',
+   description: ['Git', 'GitHub', 'Agile'],
+  },
+  {
+   title: 'Cloud',
+   description: ['AWS', 'Google Cloud'],
+  },
+  {
+   title: 'UI/UX Design',
+   description: ['Figma', 'Photoshop'],
   }
  ]
 }
