@@ -1,0 +1,24 @@
+.contact .section_title span {
+  width: 30% !important;
+}
+.contactInfo_item {
+  font-size: 14px !important;
+  color: #787878;
+  line-height: 34px !important;
+}
+.contactInfo_item > span {
+  color: #000;
+  font-weight: 600;
+}
+.contactInfo_socialsContainer {
+  margin-top: 25px;
+}
+.contactInfo_social > a > .MuiSvgIcon-root {
+  font-size: 16px !important;
+  margin-right: 10px;
+  color: #000;
+  transition: all 0.5s;
+}
+.contactInfo_social > a > .MuiSvgIcon-root:hover {
+  color: tomato;
+}

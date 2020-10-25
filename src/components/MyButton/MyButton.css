@@ -10,11 +10,13 @@
   -moz-border-radius: 50px;
   padding: 10px 29px !important;
   line-height: 15px;
-  display: flex;
+  display: flex !important;
   cursor: pointer;
+  transition: all ease 0.3s !important;
 }
 .custom_btn:hover {
-  transition: all ease 0.3s;
+  background-color: tomato !important;
+  box-shadow: 0 5px 5px 0px rgba(0, 0, 0, 0.2), 0 5px 5px 0px rgba(0, 0, 0, 0.1);
 }
 .custom_btn .btn_icon_container {
   text-align: left !important;
