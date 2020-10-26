@@ -63,6 +63,7 @@ const Profile = () => {
      </CustomerTimeLine >
      <br />
      <div className={'button_container'}>
+      {/* using download keyword to make button download */}
       <a href={'../../assets/images/keyboard-shortcuts-windows.pdf'} download>
        <MyButton text={'Download CV'} icon={<GetAppIcon />} />
       </a>
