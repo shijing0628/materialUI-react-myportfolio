@@ -36,6 +36,10 @@
   font-size: 18px;
   margin-right: 12px;
   color: #000;
+  transition: all 0.5s;
+}
+.header .header_right > a > .MuiSvgIcon-root:hover {
+  color: tomato;
 }
 .header .header_left {
   margin-right: auto;

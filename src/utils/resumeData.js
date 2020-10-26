@@ -1,4 +1,4 @@
-import { AssignmentOutlined, WebOutlined } from '@material-ui/icons';
+import { AssignmentOutlined, WebOutlined, YouTube } from '@material-ui/icons';
 import FacebookIcon from '@material-ui/icons/Facebook';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
@@ -124,6 +124,152 @@ export default {
   {
    title: 'UI/UX Design',
    description: ['Figma', 'Photoshop'],
+  }
+ ],
+ projects: [
+  {
+   tag: 'React',
+   image: 'https://image.freepik.com/free-photo/elevated-view-cellphone-notebook-pencil-with-laptop-white-desk_23-2147854255.jpg',
+   title: 'React Project 1',
+   caption: 'A short Description',
+   description: 'This is my UI project.',
+   links: [
+    {
+     link: 'https://github.com/shijing0628', icon: <YouTube />
+    },
+    {
+     link: 'https://github.com/shijing0628', icon: <GitHubIcon />
+    },
+    {
+     link: 'https://github.com/shijing0628', icon: <YouTube />
+    }
+   ]
+  },
+  {
+   tag: 'React',
+   image: 'https://www.lifewire.com/thmb/ZD_LCyHvPIoogqLWopz3ipc7rf0=/768x0/filters:no_upscale():max_bytes(150000):strip_icc()/mobile-devices-in-cafe-by-cup-of-coffee-758301243-5b2d0b88eb97de00368b4dbd.jpg',
+   title: 'React Project 2',
+   caption: 'A short Description',
+   description: 'This is my React project.',
+   links: [
+    {
+     link: 'https://github.com/shijing0628', icon: <YouTube />
+    },
+    {
+     link: 'https://github.com/shijing0628', icon: <GitHubIcon />
+    },
+    {
+     link: 'https://github.com/shijing0628', icon: <YouTube />
+    }
+   ]
+  },
+  {
+   tag: 'Javascript',
+   image: 'https://anshoool.co/jpg/new-2.jpg',
+   title: 'Javascript Project 1',
+   caption: 'A short Description',
+   description: 'This is my javascript project.',
+   links: [
+    {
+     link: 'https://github.com/shijing0628', icon: <YouTube />
+    },
+    {
+     link: 'https://github.com/shijing0628', icon: <GitHubIcon />
+    },
+    {
+     link: 'https://github.com/shijing0628', icon: <YouTube />
+    }
+   ]
+  },
+  {
+   tag: 'Javascript',
+   image: 'https://cdn-media-1.freecodecamp.org/images/1*bcZz-qb_DNpvrNNwQBhQmQ.jpeg',
+   title: 'Javascript Project 2',
+   caption: 'A short Description',
+   description: 'This is my javascript project.',
+   links: [
+    {
+     link: 'https://github.com/shijing0628', icon: <YouTube />
+    },
+    {
+     link: 'https://github.com/shijing0628', icon: <GitHubIcon />
+    },
+    {
+     link: 'https://github.com/shijing0628', icon: <YouTube />
+    }
+   ]
+  },
+  {
+   tag: 'MaterialUI',
+   image: 'https://www.infiniacorp.com/wp-content/uploads/2018/03/laptop.jpg',
+   title: 'Material UI Project 1',
+   caption: 'A short Description',
+   description: 'This is my Material UI project.',
+   links: [
+    {
+     link: 'https://github.com/shijing0628', icon: <YouTube />
+    },
+    {
+     link: 'https://github.com/shijing0628', icon: <GitHubIcon />
+    },
+    {
+     link: 'https://github.com/shijing0628', icon: <YouTube />
+    }
+   ]
+  },
+  {
+   tag: 'Database',
+   image: 'https://study.com/cimages/videopreview/videopreview-full/dl4oegfq0k.jpg',
+   title: 'Database Project 1',
+   caption: 'A short Description',
+   description: 'This is my database project.',
+   links: [
+    {
+     link: 'https://github.com/shijing0628', icon: <YouTube />
+    },
+    {
+     link: 'https://github.com/shijing0628', icon: <GitHubIcon />
+    },
+    {
+     link: 'https://github.com/shijing0628', icon: <YouTube />
+    }
+   ]
+  },
+  {
+   tag: 'AWS',
+   image: 'https://miro.medium.com/max/1790/0*2ui893KAwAT_F9wz.gif',
+   title: 'AWS Project 1',
+   caption: 'A short Description',
+   description: 'This is my AWS project.',
+   links: [
+    {
+     link: 'https://github.com/shijing0628', icon: <YouTube />
+    },
+    {
+     link: 'https://github.com/shijing0628', icon: <GitHubIcon />
+    },
+    {
+     link: 'https://github.com/shijing0628', icon: <YouTube />
+    }
+   ]
+  },
+  {
+   tag: 'Google Cloud',
+   image: 'https://storage.googleapis.com/gweb-uniblog-publish-prod/original_images/Google_Cloud_Covered.png',
+   title: 'Google Cloud Project 1',
+   caption: 'A short Description',
+   description: 'This is my google cloud project.',
+   links: [
+    {
+     link: 'https://github.com/shijing0628', icon: <YouTube />
+    },
+    {
+     link: 'https://github.com/shijing0628', icon: <GitHubIcon />
+    },
+    {
+     link: 'https://github.com/shijing0628', icon: <YouTube />
+    }
+   ]
   }
  ]
 }
