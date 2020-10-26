@@ -3,16 +3,18 @@ import { Grid, TextField } from '@material-ui/core';
 import { Icon, Typography } from '@material-ui/core';
 import '../../App.css';
 import '../Resume/Resume.css';
-import './Contact.css'
+import './Contact.css';
 import MyButton from '../../components/MyButton/MyButton';
 import resumeData from '../../utils/resumeData';
+import GoogleMap from '../../components/GoogleMap/GoogleMap';
 
 
 const Contact = () => {
  return (
   <div >
    {/* Contact */}
-   <Grid container className="section pb_45 contact" spacing={8}>
+   <Grid container className="section pb_45 contact" spacing={8} >
+    {/* left form */}
     <Grid item xs={12} lg={7}>
      <Grid container >
       <Grid item className="section_title mb_30" xs={12}>
@@ -83,9 +85,22 @@ const Contact = () => {
         ))}
        </Grid>
       </Grid>
-
      </Grid>
     </Grid>
+
+    <Grid item xs={12} >
+     <Grid container >
+      <Grid item className="section_title mb_30" xs={12}>
+       <Typography variant="h6" className="section_title_text">Map
+       </Typography>
+       <span></span>
+      </Grid>
+      <Grid item xs={12} className="googlemap-contaier" justifyContent="center" alignItems="center" >
+       <GoogleMap />
+      </Grid>
+     </Grid>
+    </Grid>
+
    </Grid>
   </div>
  )

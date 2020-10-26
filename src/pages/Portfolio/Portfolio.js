@@ -52,7 +52,6 @@ const Portfolio = () => {
                {project.caption}
               </Typography>
              </CardContent>
-
             </CardActionArea>
            </Card>
           </Grow>

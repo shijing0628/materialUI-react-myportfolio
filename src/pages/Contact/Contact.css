@@ -22,3 +22,7 @@
 .contactInfo_social > a > .MuiSvgIcon-root:hover {
   color: tomato;
 }
+.googlemap-contaier {
+  width: 80%;
+  height: 300px;
+}

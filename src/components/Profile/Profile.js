@@ -11,8 +11,12 @@ import TimelineContent from '@material-ui/lab/TimelineContent';
 import TimelineItem from '@material-ui/lab/TimelineItem';
 import MyButton from '../MyButton/MyButton';
 import GetAppIcon from '@material-ui/icons/GetApp';
+import { Link } from 'react-router-dom';
 
 const CustomTimelineItem = ({ title, text, link }) => (
+
+
+
  <TimelineItem >
   <CustomTimelineSeparator />
   <TimelineContent className="timelineItem_content">
@@ -59,7 +63,9 @@ const Profile = () => {
      </CustomerTimeLine >
      <br />
      <div className={'button_container'}>
-      <MyButton text={'Download CV'} icon={<GetAppIcon />} />
+      <a href={'../../assets/images/keyboard-shortcuts-windows.pdf'} download>
+       <MyButton text={'Download CV'} icon={<GetAppIcon />} />
+      </a>
      </div>
 
     </div>

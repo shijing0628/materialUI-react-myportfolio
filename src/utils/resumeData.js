@@ -132,7 +132,7 @@ export default {
    image: 'https://image.freepik.com/free-photo/elevated-view-cellphone-notebook-pencil-with-laptop-white-desk_23-2147854255.jpg',
    title: 'React Project 1',
    caption: 'A short Description',
-   description: 'This is my UI project.',
+   description: 'This is my UI project.Traditionally websites were made using HTML and CSS. Over the time when websites became heavier and complicated, scripting languages like PHP, Python, and Perl were used with front end developed in previous mentioned technologies (HTML and CSS). JavaScript was introduced and made the web pages more interactive.',
    links: [
     {
      link: 'https://github.com/shijing0628', icon: <YouTube />
@@ -150,7 +150,7 @@ export default {
    image: 'https://www.lifewire.com/thmb/ZD_LCyHvPIoogqLWopz3ipc7rf0=/768x0/filters:no_upscale():max_bytes(150000):strip_icc()/mobile-devices-in-cafe-by-cup-of-coffee-758301243-5b2d0b88eb97de00368b4dbd.jpg',
    title: 'React Project 2',
    caption: 'A short Description',
-   description: 'This is my React project.',
+   description: 'This is my React project.Traditionally websites were made using HTML and CSS. Over the time when websites became heavier and complicated, scripting languages like PHP, Python, and Perl were used with front end developed in previous mentioned technologies (HTML and CSS). JavaScript was introduced and made the web pages more interactive.',
    links: [
     {
      link: 'https://github.com/shijing0628', icon: <YouTube />
@@ -168,7 +168,7 @@ export default {
    image: 'https://anshoool.co/jpg/new-2.jpg',
    title: 'Javascript Project 1',
    caption: 'A short Description',
-   description: 'This is my javascript project.',
+   description: 'This is my javascript project. Traditionally websites were made using HTML and CSS. Over the time when websites became heavier and complicated, scripting languages like PHP, Python, and Perl were used with front end developed in previous mentioned technologies (HTML and CSS). JavaScript was introduced and made the web pages more interactive.',
    links: [
     {
      link: 'https://github.com/shijing0628', icon: <YouTube />
@@ -186,7 +186,7 @@ export default {
    image: 'https://cdn-media-1.freecodecamp.org/images/1*bcZz-qb_DNpvrNNwQBhQmQ.jpeg',
    title: 'Javascript Project 2',
    caption: 'A short Description',
-   description: 'This is my javascript project.',
+   description: 'This is my javascript project.Traditionally websites were made using HTML and CSS. Over the time when websites became heavier and complicated, scripting languages like PHP, Python, and Perl were used with front end developed in previous mentioned technologies (HTML and CSS). JavaScript was introduced and made the web pages more interactive.',
    links: [
     {
      link: 'https://github.com/shijing0628', icon: <YouTube />
@@ -204,7 +204,7 @@ export default {
    image: 'https://www.infiniacorp.com/wp-content/uploads/2018/03/laptop.jpg',
    title: 'Material UI Project 1',
    caption: 'A short Description',
-   description: 'This is my Material UI project.',
+   description: 'This is my Material UI project.Traditionally websites were made using HTML and CSS. Over the time when websites became heavier and complicated, scripting languages like PHP, Python, and Perl were used with front end developed in previous mentioned technologies (HTML and CSS). JavaScript was introduced and made the web pages more interactive.',
    links: [
     {
      link: 'https://github.com/shijing0628', icon: <YouTube />
@@ -222,7 +222,7 @@ export default {
    image: 'https://study.com/cimages/videopreview/videopreview-full/dl4oegfq0k.jpg',
    title: 'Database Project 1',
    caption: 'A short Description',
-   description: 'This is my database project.',
+   description: 'Traditionally websites were made using HTML and CSS. Over the time when websites became heavier and complicated, scripting languages like PHP, Python, and Perl were used with front end developed in previous mentioned technologies (HTML and CSS). JavaScript was introduced and made the web pages more interactive.',
    links: [
     {
      link: 'https://github.com/shijing0628', icon: <YouTube />
@@ -240,7 +240,7 @@ export default {
    image: 'https://miro.medium.com/max/1790/0*2ui893KAwAT_F9wz.gif',
    title: 'AWS Project 1',
    caption: 'A short Description',
-   description: 'This is my AWS project.',
+   description: 'Traditionally websites were made using HTML and CSS. Over the time when websites became heavier and complicated, scripting languages like PHP, Python, and Perl were used with front end developed in previous mentioned technologies (HTML and CSS). JavaScript was introduced and made the web pages more interactive.',
    links: [
     {
      link: 'https://github.com/shijing0628', icon: <YouTube />
@@ -258,7 +258,7 @@ export default {
    image: 'https://storage.googleapis.com/gweb-uniblog-publish-prod/original_images/Google_Cloud_Covered.png',
    title: 'Google Cloud Project 1',
    caption: 'A short Description',
-   description: 'This is my google cloud project.',
+   description: 'This is my google cloud project. I did this project in 2019 for e-commerce client.',
    links: [
     {
      link: 'https://github.com/shijing0628', icon: <YouTube />
